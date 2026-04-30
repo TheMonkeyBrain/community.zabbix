@@ -12,7 +12,6 @@ _zabbix_php_fpm_listen: /run/php/zabbix.sock
 _zabbix_php_fpm_mode: "0666"
 _zabbix_php_fpm_allowed_clients: 127.0.0.1
 
-
 _nginx_user: www-data
 _nginx_group: www-data
 _nginx_vhost_location: /etc/nginx/conf.d/zabbix.conf
@@ -32,6 +31,11 @@ zabbix_valid_web_versions:
   "11":
     - 6.0
   # Ubuntu
+  "26":
+    - 7.4
+    - 7.2
+    - 7.0
+    - 6.0
   "24":
     - 7.4
     - 7.2
