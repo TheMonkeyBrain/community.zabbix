@@ -32,6 +32,7 @@ jobs:
         container:
           - image: rockylinux10
           - image: rockylinux9
+          - image: ubuntu2604
           - image: ubuntu2404
           - image: ubuntu2204
           - image: debian13
@@ -46,6 +47,9 @@ jobs:
           - default
           - agent2
         exclude:
+          - container:
+              image: ubuntu2604
+            version: v72
           - container:
               image: debian13
             version: v72
@@ -115,6 +119,7 @@ jobs:
         container:
           - image: rockylinux10
           - image: rockylinux9
+          - image: ubuntu2604
           - image: ubuntu2404
           - image: ubuntu2204
           - image: debian13
@@ -129,6 +134,9 @@ jobs:
           - autopsk
           - agent2autopsk
         exclude:
+          - container:
+              image: ubuntu2604
+            version: v72
           - container:
               image: debian13
             version: v72
