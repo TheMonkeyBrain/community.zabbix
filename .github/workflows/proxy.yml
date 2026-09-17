@@ -32,6 +32,7 @@ jobs:
         container:
           - image: rockylinux10
           - image: rockylinux9
+          - image: ubuntu2604
           - image: ubuntu2404
           - image: ubuntu2204
           - image: debian13
