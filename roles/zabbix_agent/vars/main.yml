@@ -63,6 +63,11 @@ _zabbix_agent_valid_versions:
     - "7.2"
     - "7.0"
     - "6.0"
+  Ubuntu-18:
+    - "7.4"
+    - "7.2"
+    - "7.0"
+    - "6.0"
 # (Windows 11, Server 2022-2025 all report distribution_major_version as 10)
   Windows-10:
     - "7.4"
