@@ -1,8 +1,7 @@
 tests/output
 __pycache__
 
-# ignore visual studio code things, and intelliJ
-.vscode
+# ignore intelliJ
 .idea
 
 # ignore Python Environments
@@ -27,3 +26,16 @@ geerlingguy*
 
 # Ignore visual studio code Ansible extension things
 .ansible
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+.history/*
+
+# Built Visual Studio Code Extensions
+*.vsix
